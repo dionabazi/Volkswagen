@@ -1,0 +1,164 @@
+[{
+        "car": "Audi RS7 Sportback",
+        "id": 1,
+        "km": 0,
+        "image": "aydirs7.jpg",
+        "isSold": false,
+        "year": 2023,
+        "info": "Overview. Where speed and comfort are required, the 2024 Audi RS7 Sportback delivers. Power comes from a 591-hp twin-turbo V-8 engine that's bolted to an eight-speed automatic transmission that sends power to all four wheels."
+    },
+    {
+        "car": "Audi RS8 QUATTRO",
+        "id": 2,
+        "km": 7000,
+        "image": "audi-rs8-unofficial-rendering.jpg",
+        "isSold": false,
+        "year": 2014,
+        "info": "Its naturally aspirated V10 engines now have an output of 419 kW (570 metric horsepower) (combined fuel consumption in l/100 km*: 13.3 – 12.9; combined CO."
+    },
+    {
+        "car": "Audi A6 TDI",
+        "id": 3,
+        "km": 0,
+        "image": "audia6.webp",
+        "isSold": true,
+        "year": 2020,
+        "info": "The 3.0 TDI clean diesel with 200 kW (272 hp) is even more impressive. The key figures for the A6 Sedan are 5.5 seconds for 0 to 100 km/h (62.1 mph) acceleration, a governed top speed of 250 km/h (155.3 mph), 5.1 liters of fuel per 100 kilometers (46.1 US mpg) and 133 grams CO2 per kilometer (214.0 g/mi)."
+
+    },
+    {
+        "car": "Audi E-Tron GT",
+        "id": 4,
+        "km": 50000,
+        "image": "etron.jpg",
+        "isSold": false,
+        "year": 2021,
+        "info": "The vehicle accelerates from 0–100 km/h (0–62 mph) in 4.1 seconds, reaches a top speed of 245 km/h (152 mph) and has a maximum sustained power output of 350 kW (469 hp), which can be temporarily boosted to 390 kW (523 hp)."
+
+    },
+    {
+        "car": "Audi RSQ8",
+        "id": 5,
+        "km": 0,
+        "image": "q8facelift.jpg",
+        "isSold": true,
+        "year": 2019,
+        "info": "The Petrol engine is 3998 cc . It is available with Automatic transmission. Depending upon the variant and fuel type the RS Q8 has a mileage of 8.26 kmpl . The RS Q8 is a 5 seater 8 cylinder car and has length of 5012mm, width of 2190mm and a wheelbase of 2998mm."
+    },
+    {
+        "car": "Audi Q8",
+        "id": 6,
+        "km": 150000,
+        "image": "gforces-b2a46d5806448dfe5538d746e1baaf55f0fd4e5d.webp",
+        "isSold": false,
+        "year": 2019,
+        "info": "As standard, the Q8 is equipped with a turbocharged 3.0-liter V-6 engine that produces 335 hp and 369 lb-ft of torque. That output is routed through an eight-speed automatic transmission to Audi's renowned Quattro AWD system. In MotorTrend testing, the Q8 accelerated from 0 to 60 mph in 5.7 seconds."
+    },
+    {
+        "car": "Audi A7",
+        "id": 7,
+        "km": 200000,
+        "image": "olda7.jpg",
+        "isSold": false,
+        "year": 2012,
+        "info": "The Audi A7 is an executive luxury five-door liftback coupé produced by Audi since 2010. Also available as a three-box, four-door saloon in China since 2021, it features a sloping roofline with a steeply raked rear window and integrated boot lid (forming the so-called Sportback, and four frameless doors."
+    },
+    {
+        "car": "Audi A4",
+        "id": 8,
+        "km": 0,
+        "image": "a4audi.jpg",
+        "isSold": false,
+        "year": 2023,
+        "info": "The Petrol engine is 1984 cc . It is available with Automatic transmission. Depending upon the variant and fuel type the A4 has a mileage of . The A4 is a 5 seater 4 cylinder car and has length of 4762mm, width of 1847mm and a wheelbase of 2819mm."
+    },
+    {
+        "car": "Audi A3",
+        "id": 9,
+        "km": 1500,
+        "image": "Audi A3 Sportback (3).webp",
+        "isSold": false,
+        "year": 2023,
+        "info": "The most powerful form of this engine, and quattro four-wheel drive, makes for a 0–100 km/h (0–62 mph) time of 5.7 seconds, and an electronically limited top speed of 250 km/h (155 mph). Audi offers both six-speed manual and six-speed S-Tronic automatic transmissions with the S3."
+    },
+    {
+        "car": "Audi A6",
+        "id": 10,
+        "km": 123526,
+        "image": "olda6.webp",
+        "isSold": false,
+        "year": 2015,
+        "info": "The Petrol engine is 1984 cc . It is available with Automatic transmission. Depending upon the variant and fuel type the A6 has a mileage of 14.11 kmpl & Ground clearance of A6 is 165mm. The A6 is a 5 seater 4 cylinder car and has length of 4939mm, width of 2110mm and a wheelbase of 2930mm."
+    },
+    {
+        "car": "Audi RS6 TDI",
+        "id": 11,
+        "km": 0,
+        "image": "rs6.jpg",
+        "isSold": false,
+        "year": 2022,
+        "info": "The powertrain produces 600 PS (441 kW; 592 bhp) with 800 N⋅m (590 lbf⋅ft) available between 2100rpm and 4500rpm. The acceleration to 100 km/h (62 mph) takes 3.6 seconds and 200 km/h (120 mph) in 12 seconds."
+    },
+    {
+        "car": "Audi RS7 MANSORY",
+        "id": 12,
+        "km": 0,
+        "image": "audirrs7.jpg",
+        "isSold": false,
+        "year": 2023,
+        "info": "In addition to a modified ECU unit for the engine management system, the MANSORY development department has also modified the V8 twin-turbo with 2 bigger turbochargers, a high-performance exhaust system and a sport air filter to enhance the performance of the Audi RS7 to a higher level."
+    },
+    {
+        "car": "Audi RSQ8 MANSORY",
+        "id": 13,
+        "km": 0,
+        "image": "mansoryq8.webp",
+        "isSold": true,
+        "year": 2021,
+        "info": "The result is a peak output of 780 horsepower (574 kilowatts) and 737 pound-feet (1,000 Newton-meters) of torque for a 0-62 miles per hour (0-100 kilometers per hour) sprint in just 3.3 seconds. The top speed is capped at an impressive 199 mph (320 kph)."
+    },
+    {
+        "car": "Audi A8L MANSORY",
+        "id": 14,
+        "km": 0,
+        "image": "maxresdefault.jpg",
+        "isSold": false,
+        "year": 2022,
+        "info": "The A8L is a big car – measuring more than five metres long. Audi quotes the boot area at 505 litres, which puts it slightly down on the S-Class's 550 litres. The BMW 7 Series splits the difference at 525 litres in the plug-in hybrid (or 500 litres in the electric i7)."
+    }, {
+        "car": "Audi R8 MANSORY",
+        "id": 15,
+        "km": 0,
+        "image": "r8mansory.jpg",
+        "isSold": false,
+        "year": 2021,
+        "info": "Audi released the R8 with a 4.2-liter V-8 naturally aspirated engine that had a whopping 420 Horsepower at 7500 RPM. This thing was a beast. The V-8 engine was coupled with a six-speed manual transmission that allowed for smooth upshifts when accelerating and tight downshifts around corners."
+    }, {
+        "car": "Audi A6 MANSORY",
+        "id": 16,
+        "km": 0,
+        "image": "mansory_audi_rs6_02.webp",
+        "isSold": false,
+        "year": 2022,
+        "info": "The wagon can now sprint to 62 mph from a standstill in just 3.2 seconds. This is 0.4 clicks faster than the stock RS6. The top speed isn't revealed, but the RS6 in stock form can go all the way up to 190 mph."
+    }, {
+        "car": "Audi E-Tron MANSORY",
+        "id": 17,
+        "km": 0,
+        "image": "etronmansory.jpg",
+        "isSold": true,
+        "year": 2021,
+        "info": "Unique to the Audi e-tron S are its three electric motors—one that powers the front wheels and two that power the rear. The twin rear motors offer exceptional traction by actively distributing torque to each, individual wheel."
+    }, {
+        "car": "Audi E-Tron Race Edition",
+        "id": 18,
+        "km": 0,
+        "image": "Audi-RS-e-tron-GT-Ice-Race-Edition-1s.jpg",
+        "isSold": true,
+        "year": 2022,
+        "info": "Audi celebrates the 40th anniversary of Audi Sport GmbH, which emerged from quattro GmbH founded in 1983, with the Audi RS e-tron GT (combined electric power consumption in kWh/100 km [62.1 mi]: 22.1–19.8, combined CO2 emissions in g/km [g/mi]: 0) as a special edition: The ice race edition embodies a new form of individualization. This edition enriches the emotional portfolio of Audi exclusive – an offering that has delighted the brand’s distinguished clientele for some three decades now."
+    }
+
+
+
+]

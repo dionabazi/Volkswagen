@@ -1,0 +1,830 @@
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "elianto";
+}
+
+.container,
+.wrapper,
+.blog1,
+.wrapperOne,
+.blog,
+.second-footer {
+    animation: allTree 7s ease-in;
+}
+
+.loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    z-index: -4;
+}
+
+.loader {
+    font-size: 48px;
+    color: #000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    z-index: 1;
+    position: relative;
+}
+
+.loader video {
+    width: 1500px;
+    height: 1280px;
+}
+
+@keyframes allTree {
+    0%,
+    90% {
+        display: none;
+    }
+    100% {
+        display: block !important;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: "elianto";
+    src: url(./Fonts/PPStellar-Bold.otf);
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    object-fit: cover;
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container header {
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    z-index: 1;
+    position: absolute;
+    left: 10%;
+}
+
+.container header .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .row .col {
+    padding: 3px 0;
+    flex-basis: 49%;
+    border-right: 1px solid #fff;
+}
+
+.container header .row .col ul {
+    display: flex;
+}
+
+.container header .row .col ul li {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    list-style: none;
+    font-size: 13px;
+}
+
+.container header .img {
+    position: absolute;
+    left: 65%;
+    top: 1%;
+}
+
+.container header .img img {
+    width: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .row .col {
+    flex-basis: 50%;
+}
+
+.wrapper .row .col .backgroundimage {
+    background-image: url(./hk-00-teaser-square.webp);
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.wrapper .row .col .backgroundimage1 {
+    background-image: url(./halloween.webp);
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.wrapper .row .col .backgroundimage .info {
+    text-align: start;
+    position: relative;
+    top: 60%;
+    left: 10%;
+}
+
+.wrapper .row .col .backgroundimage .info h2 {
+    color: #262626;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.wrapper .row .col .backgroundimage .content {
+    text-align: start;
+    position: relative;
+    top: 62%;
+    left: 10%;
+}
+
+.wrapper .row .col .backgroundimage .content h1 {
+    color: #262626;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.wrapper .row .col .backgroundimage .btn {
+    text-align: start;
+    position: relative;
+    top: 64%;
+    left: 10%;
+}
+
+.wrapper .row .col .backgroundimage .btn button {
+    width: 170px;
+    padding: 13px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #262626;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: 2px solid #262626;
+}
+
+.wrapper .row .col .backgroundimage .btn button:hover {
+    background-color: #262626;
+    color: #fff;
+}
+
+.wrapper .row .col .backgroundimage1 .info {
+    text-align: start;
+    position: relative;
+    top: 60%;
+    left: 10%;
+}
+
+.wrapper .row .col .backgroundimage1 .info h2 {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.wrapper .row .col .backgroundimage1 .content {
+    text-align: start;
+    position: relative;
+    top: 62%;
+    left: 10%;
+}
+
+.wrapper .row .col .backgroundimage1 .content h1 {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.wrapper .row .col .backgroundimage1 .btn {
+    text-align: start;
+    position: relative;
+    top: 64%;
+    left: 10%;
+}
+
+.wrapper .row .col .backgroundimage1 .btn button {
+    width: 170px;
+    padding: 13px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: 2px solid #fff;
+}
+
+.wrapper .row .col .backgroundimage1 .btn button:hover {
+    background-color: #fff;
+    color: #262626;
+}
+
+.blog {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.blog .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 100px;
+    padding: 50px;
+}
+
+.blog .row .col {
+    flex-basis: 50%;
+}
+
+.blog .row .col video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.blog .row .col h1 {
+    color: #262626;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.blog .row .col button {
+    width: 370px;
+    padding: 13px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #262626;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #262626;
+}
+
+.blog .row .col button:hover {
+    background-color: #262626;
+    color: #fff;
+}
+
+.blog1 {
+    background-color: #262626;
+    width: 100%;
+    height: 100%;
+}
+
+.blog1 .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    padding: 50px;
+}
+
+.blog1 .row .col {
+    flex-basis: 50%;
+}
+
+.blog1 .row .col .content {
+    text-align: start;
+    position: relative;
+}
+
+.blog1 .row .col .content h1 {
+    color: #fff;
+    font-family: "elianto";
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.blog1 .row .col .info {
+    text-align: start;
+    position: relative;
+}
+
+.blog1 .row .col .info h3 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 3px 0;
+}
+
+.blog1 .row .col .btn {
+    text-align: start;
+    position: relative;
+}
+
+.blog1 .row .col .btn button {
+    width: 180px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+}
+
+.blog1 .row .col .btn button:hover {
+    background-color: #fff;
+    color: #262626;
+}
+
+.blog1 .row .col .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.blog1 .row .col .icons {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog1 .row .col .controls #nextbtn {
+    position: absolute;
+    right: 0;
+}
+
+.blog1 .row .col .icons button {
+    padding: 10px;
+    background-color: #262626;
+    border: none;
+}
+
+.blog1 .row .col .slideshow-container video {
+    width: 400px;
+    height: fit-content;
+    aspect-ratio: 5/7;
+    object-fit: contain;
+}
+
+.blog1 .row .col .slideshow-container .video-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.blog1 .row .col .controls {
+    text-align: center;
+    display: flex;
+    column-gap: 284px;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.blog1 .row .col .controls button {
+    font-size: 30px;
+    padding: 8px 16px;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.wrapperOne {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.wrapperOne .row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding: 90px;
+    align-items: center;
+}
+
+.wrapperOne .row .col {
+    flex-basis: 33%;
+    border: 1px solid #242424;
+    position: relative;
+    border-bottom: 1px solid #242424;
+    aspect-ratio: 7/4;
+}
+
+.wrapperOne .row .col #carPhoto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(.8);
+    cursor: pointer;
+    position: relative;
+}
+
+.wrapperOne .row .col .car-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.wrapperOne .row .col .time {
+    display: flex;
+    padding: 20px 10px;
+    border-top: 1px solid #242424;
+    justify-content: space-between;
+    box-shadow: 0 0 30px #d3c9c9 inset;
+}
+
+.wrapperOne .row .col .time h3 {
+    color: #242424;
+    font-family: sans-serif;
+    opacity: .5;
+    font-weight: 300;
+}
+
+.wrapperOne .row .col .not-time .sold {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    font-family: sans-serif;
+    color: rgb(199, 12, 12);
+}
+
+.wrapperOne .row .col .not-time {
+    box-shadow: 0 0 15px rgb(199, 12, 12) inset;
+    padding: 20px 10px;
+    border-top: 1px solid #242422;
+}
+
+.wrapperOne .row .col .car-logo img {
+    width: 30px;
+    object-fit: cover;
+}
+
+.wrapperOne .row .col .car-logo h3 {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-top: 7px;
+}
+
+
+/* The Modal (background) */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 100px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: hsl(0, 0%, 67%);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: 0.5s ease-in 0s 1 normal none running showModal;
+}
+
+#modalPhoto {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.rows .cols h3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.rows .cols .content h1 {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 3px 0;
+    font-size: 19px;
+}
+
+.rows .cols {
+    flex-basis: 50%;
+}
+
+.rows .cols img {
+    width: 400px;
+}
+
+.row .col .seeButton {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -90px;
+}
+
+.row .col .seeButton button {
+    padding: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 1px solid #f3f3fa;
+    outline: none;
+    cursor: pointer;
+}
+
+.row .col .seeButton button:active {
+    background-color: #fff;
+    box-shadow: 0 5px #000;
+    transform: translateY(4px);
+}
+
+.row .col .seeButton i {
+    font-size: 12px;
+    position: relative;
+    left: 2%;
+}
+
+.second-footer {
+    background-color: #000;
+    padding: 50px;
+}
+
+.second-footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.second-footer .row .col {
+    flex-basis: 20%;
+    position: relative;
+}
+
+.second-footer .row .col img {
+    width: 70px;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.second-footer .row .col ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    position: relative;
+    padding: 7px 0;
+}
+
+.second-footer .row .col ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-footer .row .col ul li a {
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.second-footer .row .col .content {
+    text-align: start;
+    position: relative;
+    left: 17%;
+    bottom: 10px;
+}
+
+.second-footer .row .col .content h4 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.second-footer .row .col .content-4 {
+    text-align: start;
+    position: relative;
+    left: -1%;
+    bottom: 10px;
+}
+
+.second-footer .row .col .content-4 h4 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.second-footer .row .col a:hover {
+    text-decoration: underline;
+}
+
+.second-footer .row .col .icons {
+    display: flex;
+    column-gap: 20px;
+}
+
+.second-footer .row .col .icons i {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.second-footer .row .col i {
+    font-size: 10px;
+    left: 1%;
+}
+
+.second-footer .row .col .icons i:hover {
+    transform: translateY(-7px);
+    transition: .5s ease-in;
+}
+
+.second-footer .row .col .img {
+    position: relative;
+    left: 13%;
+}
+
+.second-footer .row .col .img img {
+    width: 80px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.second-footer .next-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    border-top: 1px solid #242424;
+}
+
+.second-footer .next-row .next-col {
+    position: relative;
+}
+
+.second-footer .next-row .next-col ul {
+    display: flex;
+}
+
+.second-footer .next-row .next-col ul li {
+    list-style: none;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+    font-size: 10px;
+    display: inline-block;
+}
+
+.second-footer .next-row .next-col ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.second-footer .next-row .next-col img {
+    width: 80px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.second-footer .next-row .next-col ul li a:hover {
+    transition: .5s ease-in;
+    text-decoration: underline;
+}
+
+.second-footer .content {
+    text-align: start;
+    position: relative;
+    padding: 20px 0;
+}
+
+.second-footer .content h6 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.second-footer .second-content {
+    text-align: start;
+    position: relative;
+    padding: 20px 0;
+}
+
+.second-footer .second-content h6 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.second-footer .third-content {
+    text-align: start;
+    position: relative;
+    padding: 20px 0;
+}
+
+.second-footer .third-content h6 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.second-footer .third-content span {
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.second-footer .third-content span::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background-color: #fff;
+    top: 55px;
+    height: 1.2px;
+}
+
+.second-footer .third-content span:hover::before {
+    transition: .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 27%;
+}
+
+@keyframes showModal {
+    0% {
+        opacity: .1;
+        transition: .4s ease-in;
+    }
+    100% {
+        opacity: 1;
+        transition: .4s ease-in;
+    }
+}

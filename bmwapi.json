@@ -1,0 +1,136 @@
+[{
+        "car": "BMW M5 F90",
+        "id": 1,
+        "km": 0,
+        "image": "590.jpg",
+        "isSold": false,
+        "year": 2023,
+        "info": "The M5 F90 comes with a slew of desirable features such as customizable ambient interior lighting, a heated steering wheel, heated front seats, and a power-adjustable steering column. BMW offers ventilated front seats with massage functionality, heated rear seats, and four-zone automatic climate control for more coin."
+    },
+    {
+        "car": "BMW M8 Gran Coupe",
+        "id": "2",
+        "km": 0,
+        "image": "m8.jpg",
+        "isSold": false,
+        "year": 2022,
+        "info": "The M8 Gran Coupe is powered by a lusty twin-turbo 4.4-liter V-8 that makes 617 horsepower, thanks to the adoption of the previously optional Competition package. The exceptionally smooth engine sends that power to all four wheels via a responsive eight-speed automatic transmission."
+    },
+    {
+        "car": "Z4 Roadster",
+        "id": "3",
+        "km": 0,
+        "image": "z4.jpg",
+        "isSold": true,
+        "year": 2002,
+        "info": "The Z4 Roadster was launched in 2002 with the 2.5i and 3.0i six-cylinder models. Transmission choices were a five-speed manual, six-speed manual, five-speed automatic and a six-speed SMG-II automated manual transmission."
+    },
+    {
+        "car": "BMW M4",
+        "id": "4",
+        "km": 46402,
+        "image": "m4.jpg",
+        "isSold": false,
+        "year": 2014,
+        "info": "The M4 is motivated by a brilliant twin-turbocharged 3.0-liter inline-six that comes in two potencies. The standard version makes 473 horsepower and 406 pound-feet of torque. It pairs with rear-wheel drive and a six-speed manual transmission."
+    },
+    {
+        "car": "BMW 7 Series 750li",
+        "id": "5",
+        "km": 0,
+        "image": "750li.jpg",
+        "year": 2014,
+        "info": "The BMW 750li is available in a number of variants and body types that are powered by PULP fuel type(s). It has an estimated fuel consumption starting from 8.5L/100km for Sedan /PULP for the latest year the model was manufactured."
+    },
+    {
+        "car": "BMW 7 Series",
+        "id": "6",
+        "km": 0,
+        "image": "bmw2024.jpg",
+        "year": 2024,
+        "isSold": false,
+        "info": "The 2024 BMW 7 Series Sedan includes advanced technology befitting a large luxury vehicle. An available 31” BMW Theater Screen with Personal eSim 5G connectivity and built-in Amazon Fire TV entertains and relaxes rear-seat passengers. Touchscreens in the rear doors adjust climate and comfort settings."
+
+    },
+    {
+        "car": "BMW 7 Series",
+        "id": "7",
+        "km": 0,
+        "image": "another7series.jpg",
+        "year": 2024,
+        "isSold": false,
+        "info": "The 2024 BMW 7 Series Sedan includes advanced technology befitting a large luxury vehicle. An available 31” BMW Theater Screen with Personal eSim 5G connectivity and built-in Amazon Fire TV entertains and relaxes rear-seat passengers. Touchscreens in the rear doors adjust climate and comfort settings."
+    },
+    {
+        "car": "BMW I5",
+        "id": "8",
+        "km": 0,
+        "image": "i5.jpg",
+        "year": 2024,
+        "isSold": false,
+        "info": "The 2024 BMW i5 is offered in two variants at launch: a rear-motor i5 eDrive40 with 335 hp and 295 lb-ft of torque, or an AWD dual-motor M60 xDrive putting out 590 hp and 586 lb-ft."
+    },
+    {
+        "car": "BMW M5 E60",
+        "id": "9",
+        "km": 150000,
+        "image": "e60.jpg",
+        "year": 2010,
+        "isSold": false,
+        "info": "the E60 facelift was the first 5-series BMW where 4 different gasoline engine types were available. A 4-cylinder in-line engine was offered for the 520i, a 6-cylinder in-line engine for the 523i, 525i, 530i and 535i, a V8 for the 540i and 550i and a legendary V10 for the most powerful version of the 5 series, the M5."
+    },
+    {
+        "car": "BMW E90",
+        "id": "10",
+        "km": 304103,
+        "image": "e39.jpg",
+        "year": 1999,
+        "isSold": false,
+        "info": "The BMW E39 is the fourth generation of BMW 5 Series, which was sold from 1995 to 2004. It was launched in the sedan body style, with the wagon/estate body style marketed as Touring introduced in 1996."
+    },
+    {
+        "car": "BMW I8",
+        "id": "11",
+        "km": 0,
+        "image": "bmwi8.jpg",
+        "year": 2018,
+        "isSold": false,
+        "info": "The BMW i8 Concept plug-in hybrid electric vehicle included an electric motor located in the front axle powering the front wheels rated 96 kW (131 PS; 129 hp) and 250 N⋅m (184 ft⋅lb), a turbocharged 1.5-liter 3-cylinder gasoline engine driving rear wheels rated 164 kW (223 PS; 220 hp) and 300 N⋅m (221 ft⋅lb) of torque."
+    },
+    {
+        "car": "BMW X7",
+        "id": "12",
+        "km": 1000,
+        "image": "x7.webp",
+        "year": 2023,
+        "isSold": false,
+        "info": "The entry-level X7 xDrive40i is powered by a 375-hp turbocharged inline-six-cylinder, and the M60i has a twin-turbo 4.4-liter V-8 that makes 523 horses."
+    },
+    {
+        "car": "BMW M5",
+        "id": "13",
+        "km": 0,
+        "image": "m52015.jpg",
+        "year": 2015,
+        "isSold": true,
+        "info": "The Petrol engine is 4395 cc . It is available with Automatic transmission. Depending upon the variant and fuel type the M5 has a mileage of 9.12 kmpl . The M5 is a 5 seater 8 cylinder car and has length of 4983mm, width of 2126mm and a wheelbase of 2982mm."
+    },
+    {
+        "car": "BMW M6",
+        "id": "14",
+        "km": 21000,
+        "image": "m6.jpg",
+        "year": 2015,
+        "isSold": false,
+        "info": "There have been a total of 4515 M6 Coupes produced globally with only 2093 (1619 + 474 LCI) sent to North America for the entire production from 2012 through present. In the case of Sakhir Orange, there were only 207 copies made, if you happen to be looking for that color. $119,900. The BMW M6 was the performance variant of the 6 Series lineup, offering drivers a grand touring coupe with a sporty bent."
+    },
+    {
+        "car": "BMW X6",
+        "id": "15",
+        "km": 0,
+        "image": "x6.jpg",
+        "year": 2023,
+        "isSold": false,
+        "info": "It sports a high-revving 3.0-liter BMW Twin-Turbo engine paired with an eight-speed automatic transmission and a 48V mild hybrid technology to deliver 335 horsepower and 332 lb-ft of torque, sufficient to hustle you to 60 mph in 5.3 seconds."
+    }
+]

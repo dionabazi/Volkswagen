@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Car Showroom | Welcome</title>
+    <link rel="stylesheet" href="./showroom.css">
+    <link rel="icon" href="./audi-logo-audi-icon-free-free-vector.jpg">
+    <script src="https://kit.fontawesome.com/f8f15879c6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <section class="container">
+
+
+        <header id="removeHeader" class="lazy-load">
+            <div class="img">
+                <a href="./firstpage.html">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+
+                </a>
+            </div>
+
+            <div class="burger">
+
+                <input type="checkbox" id="hamburger-input" class="burger-shower" />
+                <label id="hamburger-menu" for="hamburger-input">
+<nav id="sidebar-menu">
+<ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+    <li>Payment</li>
+
+
+
+</ul>
+</nav>
+</label>
+            </div>
+
+            <div class="overlay"></div>
+        </header>
+
+        <div class="content">
+
+            <img src="audiimage.png" alt="">
+        </div>
+        <div class="info">
+
+            <h1>Our Car </h1>
+            <h1>Showroom
+            </h1>
+        </div>
+
+    </section>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="rows">
+                <div class="cols colLeft">
+                    <img id="modalPhoto" src="aydirs7.jpg" data-product-id="14">
+
+                </div>
+                <div class="cols colRight">
+                    <div class="content">
+                        <h1 class="myTitle" data-product-id="14"></h1>
+                        <br>
+                        <h3 class="contentTitle" data-product-id="14">
+                        </h3>
+                        <br>
+                        <button id="isThisSold" data-product-id="14"></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="wrapper">
+        <!-- <div class="row">
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="1">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg">
+                    <div class="car-logo">
+                        <h3 id="carTitle" data-product-id="1">Audi A7 SPORTBACK</h3>
+
+                    </div>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="1">2020</h3>
+                    <h3 id="carKilometers" data-product-id="1">00 km</h3>
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+
+            <div class="col">
+                <img id="carPhoto" src="audi-rs8-unofficial-rendering.jpg" data-product-id="2">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <div class="car-logo">
+                        <h3 id="carTitle" data-product-id="2">Audi RS8 QUATTRO</h3>
+                    </div>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="2">2014</h3>
+                    <h3 id="carKilometers" data-product-id="2">7,000 km</h3>
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+            <div class="col">
+                <img id="carPhoto" src="audia6.webp" data-product-id="3">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <div class="car-logo">
+                        <h3 id="carTitle" data-product-id="3">Audi A6 TDI</h3>
+                    </div>
+                </div>
+                <div class="not-time">
+                    <h3 id="carSold" data-product-id="3" class="sold">SOLD</h3>
+
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+
+        </div> -->
+        <div class="row">
+            <div class="col">
+                <img id="carPhoto" class="carPhotoClass" src="" data-product-id="1">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg">
+                    <div class="car-logo">
+                        <h3 id="carTitle" data-product-id="1"></h3>
+
+                    </div>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="1"></h3>
+                    <h3 id="carKilometers" data-product-id="1"></h3>
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="1">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="2">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <div class="car-logo">
+                        <h3 id="carTitle" data-product-id="2"></h3>
+                    </div>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="2"></h3>
+                    <h3 id="carKilometers" data-product-id="2"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="2">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="3">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <div class="car-logo">
+                        <h3 id="carTitle" data-product-id="3"></h3>
+                    </div>
+                </div>
+                <div class="not-time">
+                    <h3 id="carSold" data-product-id="3" class="sold"></h3>
+
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="3">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+
+                <img id="carPhoto" src="" data-product-id="4">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="4"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="4"></h3>
+                    <h3 id="carKilometers" data-product-id="4"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="4">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="5">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="5"></h3>
+                </div>
+                <div class="not-time">
+                    <h3 id="carSold" data-product-id="5" class="sold"></h3>
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="5">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="6">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="6"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="6">2019</h3>
+                    <h3 id="carKilometers" data-product-id="6"></h3>
+
+
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="6">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="7">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="7"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="7"></h3>
+                    <h3 id="carKilometers" data-product-id="7"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="7">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="8">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="8"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="8"></h3>
+                    <h3 id="carKilometers" data-product-id="8"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="8">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="9">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="9"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="9"></h3>
+                    <h3 id="carKilometers" data-product-id="9"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="9">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+
+            </div>
+        </div>
+        <!-- nextrow -->
+
+
+        <div class="row">
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="10">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="10"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="10"></h3>
+                    <h3 id="carKilometers" data-product-id="10"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="10">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <img id="carPhoto" src="rs6.jpg" data-product-id="11">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="11"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="11"></h3>
+                    <h3 id="carKilometers" data-product-id="11"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="11">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="12">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="12"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="12"></h3>
+                    <h3 id="carKilometers" data-product-id="12"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="12">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- nextrow -->
+
+
+        <div class="row">
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="13">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="13"></h3>
+                </div>
+                <div class="not-time">
+                    <h3 id="carSold" data-product-id="13" class="sold"></h3>
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="13">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="14">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="14"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="14"></h3>
+                    <h3 id="carKilometers" data-product-id="14"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="14">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="15">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="15"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="15"></h3>
+                    <h3 id="carKilometers" data-product-id="15"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="15">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="16">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="16"></h3>
+                </div>
+                <div class="time">
+                    <h3 id="carYear" data-product-id="16"></h3>
+                    <h3 id="carKilometers" data-product-id="16"></h3>
+
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="16">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="17">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="17"></h3>
+                </div>
+                <div class="not-time">
+                    <h3 id="carSold" data-product-id="17" class="sold"></h3>
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="17">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+            </div>
+            <div class="col">
+                <img id="carPhoto" src="" data-product-id="18">
+                <div class="car-logo">
+                    <img src="audi-logo-audi-icon-free-free-vector.jpg" alt="">
+                    <h3 id="carTitle" data-product-id="18"></h3>
+                </div>
+                <div class="not-time">
+                    <h3 id="carSold" data-product-id="18" class="sold">SOLD</h3>
+                </div>
+                <div class="seeButton">
+                    <button id="myBtn" data-product-id="18">Quickview <i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="second-footer">
+
+        <div class="row">
+
+            <div class="col">
+                <div class="content">
+                    <h4>Vehicles</h4>
+                </div>
+                <ul>
+                    <li><a href="./firstpage.html">A8L</a></li>
+                    <li><a href="./bmw.html">M8 Competition</a></li>
+                    <li><a href="./toytoa.html">Toyota Concept-I Series</a></li>
+                    <li><a href="./porsche.html">GT4 RS</a></li>
+                    <li><a href="./mercedes.html">AMG SL®</a></li>
+                    <li><a href="#">FCA Work Vehicles    <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="./rangerover.html">Range Rover Luxury            <i class="fa-solid fa-up-right-from-square"></i></a></li>
+
+                </ul>
+            </div>
+
+            <div class="col">
+                <div class="content">
+                    <h4>RESEARCH</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Build & Price</a></li>
+                    <li><a href="#">Compare Models</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Get a Brochure</a></li>
+                    <li><a href="#">Sign up for Uptades</a></li>
+                    <li><a href="./porsche.html">Porsche Brand Muscle Cars</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h4>All Cars ENTHUSIASTS</h4>
+                </div>
+                <ul>
+                    <li><a href="./firstpage.html">Audi Racing School-</a></li>
+                    <li><a href="./rollsroyce.html">Rolls // Royce® Experience    <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="./toytoa.html">Toyota Garage     <i class="fa-solid fa-up-right-from-square"></i></a></li>
+                    <li><a href="#">Commericals     <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="./porsche.html">Porsche Muscle</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h4>MY ACCOUNT</h4>
+                </div>
+                <ul>
+                    <li><a href="#">My Dashboard</a></li>
+                    <li><a href="#">My Builds</a></li>
+                    <li><a href="#">My Inventory</a></li>
+                    <li><a href="#">My Searches</a></li>
+                    <li><a href="#">My Garage             <i class="fa-solid fa-up-right-from-square"></i></a></li>
+                    <li><a href="#">My Vehicle Orders</a></li>
+                    <li><a href="#">My Profile</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="content-4">
+                    <h4>SUPPORT</h4>
+                </div>
+                <a href="./toytoa.html">
+                    <img src="TOYOTa.jpg" alt="">
+
+                </a>
+                <a href="./bmw.html">
+                    <img src="bmwlogo.webp" alt="">
+
+                </a>
+            </div>
+        </div>
+
+        <!-- divi i 2 -->
+
+        <div class="row">
+
+            <div class="col">
+                <div class="content">
+                    <h4>SERVICE & MORE</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Mopar® Vehicle</a></li>
+                    <li><a href="#">Protection  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Service Cupons  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="./bmw.html">Bmw DrivePlus℠</a></li>
+                    <li><a href="#">Mastercard®  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Shop Parts  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+
+                </ul>
+            </div>
+
+            <div class="col">
+                <div class="content">
+                    <h4>LOCATE</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Search New Inventory</a></li>
+                    <li><a href="#">Shop Online  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Find a Dealer</a></li>
+                    <li><a href="#">Schedule a Test Drive</a></li>
+                    <li><a href="#">Certified Pre-Owned</a></li>
+                    <li><a href="#">Inventory  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h4>COST</h4>
+                </div>
+                <ul>
+                    <li><a href="#">View Incentives & Offers</a></li>
+                    <li><a href="#">National Incentives</a></li>
+                    <li><a href="#">Calculate Payment</a></li>
+                    <li><a href="#">Find Your Trade-in Value</a></li>
+                    <li><a href="#">Get a Quote</a></li>
+                    <li><a href="#">Get Prequalified</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h4>PRIVACY CENTER</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Privacy Policy  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Manage Your Privacy</a></li>
+                    <li><a href="#">Choices  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Cookies Settings</a></li>
+
+                </ul>
+            </div>
+            <div class="col">
+                <div class="content-4">
+                    <h4>FOLLOW US</h4>
+                </div>
+
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-youtube"></i>
+                </div>
+
+                <div class="img">
+                    <img src="blacklogo.jpg" alt="">
+                    <a href="./porsche.html">
+                        <img src="porschelogo.jpg" alt="">
+
+                    </a>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- divi i 3 -->
+
+
+        <div class="row">
+
+            <div class="col">
+                <div class="content">
+                    <h4>POWER BROKERS</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Power Brokers Dealers</a></li>
+                    <li><a href="#">Power Brokers Dealer List  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Direction Connection</a></li>
+                    <li><a href="#">Performance Catalog  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Shop Direct Connection</a></li>
+                    <li><a href="#">Performance Parts Online  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+
+
+                </ul>
+            </div>
+
+            <div class="col">
+                <div class="content">
+                    <h4>OWNERS</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Owners Site</a></li>
+                    <li><a href="#">Login/Uconnect Acess and</a></li>
+                    <li><a href="#">SiriusXM Guardian Login  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Owners Manuals & User</a></li>
+                    <li><a href="#">Guides  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Find Your Uconnect</a></li>
+                    <li><a href="#">System  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Uconnect® Software</a></li>
+                    <li><a href="#">Uptade  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Recall Information  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Audi Merchandise  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Vehicle Order Tracking</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h4>LEGAL</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Copyright  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Terms of Use  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                    <li><a href="#">Legal Safety</a></li>
+                    <li><a href="#">Trademark Information</a></li>
+                    <li><a href="#">Acessibility  <i class="fa-solid fa-up-right-from-square"></i> </a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+
+
+
+            </div>
+
+        </div>
+
+        <div class="next-row">
+
+            <div class="next-col">
+                <a href="./rollsroyce.html">
+                    <img src="rolls.jpg" alt="">
+
+                </a>
+                <a href="./Lamborghini/index.html">
+                    <img src="lamborghini.jpg" alt="">
+
+                </a>
+                <a href="./mercedes.html">
+                    <img src="mercedeslogo.png" alt="">
+
+                </a>
+                <a href="./rangerover.html">
+                    <img src="rangerover.jpg" alt="">
+                </a>
+            </div>
+            <div class="next-col">
+                <ul>
+                    <li><a href="./firstpage.html">Audi</a></li>
+                    <li><a href="./bmw.html">Bmw</a></li>
+                    <li><a href="./toytoa.html">Toyota</a></li>
+                    <li><a href="./rangerover.html">Range Rover</a></li>
+                    <li><a href="./mercedes.html">Mercedes®</a></li>
+                    <li><a href="./Lamborghini/index.html">Lamborghini</a></li>
+                    <li><a href="./rollsroyce.html">Rolls Royce</a></li>
+                    <li><a href="./porsche.html">Porsche</a></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="content">
+            <h6>©2023 FCA US LLC. All Rights Reserved.</h6>
+            <h6>Audi, Bmw, Bugatti, Volkswagen, Mercedes®, Lamborghini and Bentley are registered trademarks of FCA US LLC.</h6>
+            <h6>Ducati and FIAT Porsche are registered trademarks of FCA US LLC Group Marketing S.p.A., used with permission.</h6>
+        </div>
+
+
+
+        <div class="second-content">
+            <h6>*MSRP excludes destination, taxes, title and registration fees. Starting at price refers to the base model, optional</h6>
+            <h6>equipment not included. A more expensive model may be shown. Pricing and offers may change at any time</h6>
+            <h6>without notification. To get full pricing details, see your dealer.</h6>
+        </div>
+
+        <div class="third-content">
+            <h6>FCA US LLC strives to ensure that its website is accessible to individuals with disabilities. Should you encounter an</h6>
+            <h6>issue accessing any content on Dodge.com, please <span> email our Customer Service Team</span> or call 800-4A Audi, for</h6>
+            <h6>further assistance or to report a problem. Access to <span> https://www.audi.com/webselfservice/audi/index.html</span> is</h6>
+            <h6>subject to FCA US LLC’s Privacy Policy and Terms of Use.</h6>
+        </div>
+
+
+
+    </footer>
+
+
+    <script src="showroom.js"></script>
+
+</body>
+
+</html>
